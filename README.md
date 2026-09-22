@@ -105,14 +105,8 @@ debugging hooks, and what happens when the system does not behave as expected.
 
 ## GitHub activity
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ngminhpd&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=8b5cf6&text_color=8b949e&icon_color=9fe870" height="165" alt="GitHub statistics" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ngminhpd&layout=compact&hide_border=true&theme=transparent&title_color=8b5cf6&text_color=8b949e" height="165" alt="Top languages" />
-
-</div>
-
-<br />
+My public contribution graph below tracks the systems I build across electronics, firmware,
+digital logic, and hardware–software integration.
 
 <div align="center">
 
