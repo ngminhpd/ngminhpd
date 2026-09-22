@@ -1,0 +1,57 @@
+<svg width="1400" height="310" viewBox="0 0 1400 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1400" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#1B1530"/>
+      <stop offset="1" stop-color="#071A1C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9FE870"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="310" rx="20" fill="url(#background)"/>
+  <rect width="1400" height="310" rx="20" fill="url(#grid)"/>
+
+  <g opacity="0.55" stroke="url(#accent)" stroke-width="2">
+    <path d="M940 0V54H1010V92H1115V141H1210"/>
+    <path d="M1070 310V260H1140V220H1250V184H1400"/>
+    <path d="M890 310V260H950V224H1030V185H1100"/>
+    <path d="M1400 72H1325V105H1260V142H1190"/>
+  </g>
+
+  <g fill="#9FE870" filter="url(#glow)">
+    <circle cx="1210" cy="141" r="4"/>
+    <circle cx="1100" cy="185" r="4"/>
+    <circle cx="1190" cy="142" r="4"/>
+    <circle cx="1400" cy="72" r="4"/>
+  </g>
+
+  <g transform="translate(80 74)">
+    <rect x="0" y="0" width="74" height="74" rx="12" stroke="#9FE870" stroke-width="2"/>
+    <path d="M20 38H54M37 20V54" stroke="#9FE870" stroke-width="2"/>
+    <circle cx="20" cy="38" r="5" fill="#9FE870"/>
+    <circle cx="54" cy="38" r="5" fill="#8B5CF6"/>
+    <circle cx="37" cy="20" r="5" fill="#8B5CF6"/>
+    <circle cx="37" cy="54" r="5" fill="#9FE870"/>
+  </g>
+
+  <text x="80" y="193" fill="#F9FAFB" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" letter-spacing="-1">NGUYEN HONG MINH</text>
+  <text x="84" y="228" fill="#9FE870" font-family="monospace" font-size="15" letter-spacing="3">EMBEDDED SYSTEMS  /  DIGITAL IC DESIGN</text>
+  <text x="84" y="265" fill="#9CA3AF" font-family="monospace" font-size="12" letter-spacing="1">HARDWARE-MINDED · SYSTEM-FOCUSED · ALWAYS BUILDING</text>
+
+  <g opacity="0.7" fill="#9CA3AF" font-family="monospace" font-size="10">
+    <text x="1175" y="50">SYS_01</text>
+    <text x="1285" y="282">0101 0011</text>
+    <text x="1110" y="116">GPIO</text>
+    <text x="1216" y="174">RTL</text>
+  </g>
+</svg>
