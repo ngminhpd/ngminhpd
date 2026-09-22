@@ -1,0 +1,102 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Embedded systems and digital IC engineering dashboard</title>
+  <desc id="desc">A dark silicon lab dashboard showing embedded, RTL, ASIC flow, and connected systems focus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1118"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#9FE870" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9FE870"/>
+      <stop offset="1" stop-color="#9FE870" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#9FE870" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glowGreen" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPurple" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="500" rx="16" fill="url(#grid)"/>
+  <path d="M0 74H1200" stroke="#263244"/>
+  <path d="M0 74H430" stroke="url(#line)" stroke-width="2"/>
+  <text x="34" y="45" fill="#9FE870" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">NGMINHPD / SILICON LAB</text>
+  <text x="1165" y="45" text-anchor="end" fill="#718096" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">LIVE PROFILE TELEMETRY</text>
+
+  <rect x="28" y="100" width="315" height="330" rx="12" fill="#0C131D" stroke="#2A394B"/>
+  <rect x="53" y="126" width="74" height="74" rx="12" fill="#151F2E" stroke="#9FE870" stroke-width="2"/>
+  <rect x="68" y="141" width="44" height="44" rx="8" fill="#0B1118" stroke="#8B5CF6"/>
+  <path d="M90 132V141M90 185V194M59 163H68M112 163H121M68 141L61 134M112 141L119 134M68 185L61 192M112 185L119 192" stroke="#9FE870" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="90" cy="163" r="8" fill="#9FE870" filter="url(#glowGreen)"/>
+  <path d="M90 149V177M76 163H104" stroke="#0B1118" stroke-width="3"/>
+  <text x="53" y="235" fill="#F4F7FA" font-family="Arial, sans-serif" font-size="25" font-weight="700">NGUYEN HONG MINH</text>
+  <text x="53" y="262" fill="#9FE870" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">EMBEDDED / DIGITAL IC</text>
+  <path d="M53 282H318" stroke="#263244"/>
+  <text x="53" y="309" fill="#8B98A9" font-family="Arial, sans-serif" font-size="13">MODE</text>
+  <text x="318" y="309" text-anchor="end" fill="#9FE870" font-family="Arial, sans-serif" font-size="13" font-weight="700">BUILDING &amp; TESTING</text>
+  <text x="53" y="337" fill="#8B98A9" font-family="Arial, sans-serif" font-size="13">DOMAIN</text>
+  <text x="318" y="337" text-anchor="end" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">HARDWARE / RTL / OT</text>
+  <text x="53" y="365" fill="#8B98A9" font-family="Arial, sans-serif" font-size="13">LOCATION</text>
+  <text x="318" y="365" text-anchor="end" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">HO CHI MINH CITY</text>
+  <text x="53" y="403" fill="#718096" font-family="monospace" font-size="11">[ CHIP SIGNAL ONLINE ]</text>
+
+  <rect x="367" y="100" width="390" height="330" rx="12" fill="#0C131D" stroke="#2A394B"/>
+  <text x="395" y="137" fill="#F4F7FA" font-family="Arial, sans-serif" font-size="17" font-weight="700">CURRENT FOCUS</text>
+  <text x="395" y="160" fill="#718096" font-family="Arial, sans-serif" font-size="12">Signal intensity by engineering domain</text>
+  <text x="395" y="205" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">EMBEDDED C / MCU</text>
+  <rect x="395" y="217" width="280" height="9" rx="4.5" fill="#1D2A37"/>
+  <rect x="395" y="217" width="239" height="9" rx="4.5" fill="#9FE870"/>
+  <circle cx="634" cy="221.5" r="5" fill="#9FE870" filter="url(#glowGreen)"/>
+  <text x="703" y="225" fill="#9FE870" font-family="monospace" font-size="11">ACTIVE</text>
+  <text x="395" y="257" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">RTL / VERILOG</text>
+  <rect x="395" y="269" width="280" height="9" rx="4.5" fill="#1D2A37"/>
+  <rect x="395" y="269" width="205" height="9" rx="4.5" fill="#8B5CF6"/>
+  <circle cx="600" cy="273.5" r="5" fill="#8B5CF6" filter="url(#glowPurple)"/>
+  <text x="703" y="277" fill="#8B5CF6" font-family="monospace" font-size="11">ACTIVE</text>
+  <text x="395" y="309" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">ASIC FLOW / PNR</text>
+  <rect x="395" y="321" width="280" height="9" rx="4.5" fill="#1D2A37"/>
+  <rect x="395" y="321" width="176" height="9" rx="4.5" fill="#6EE7B7"/>
+  <circle cx="571" cy="325.5" r="5" fill="#6EE7B7" filter="url(#glowGreen)"/>
+  <text x="703" y="329" fill="#6EE7B7" font-family="monospace" font-size="11">LEARNING</text>
+  <text x="395" y="361" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="13">OT / MQTT SYSTEMS</text>
+  <rect x="395" y="373" width="280" height="9" rx="4.5" fill="#1D2A37"/>
+  <rect x="395" y="373" width="148" height="9" rx="4.5" fill="#38BDF8"/>
+  <circle cx="543" cy="377.5" r="5" fill="#38BDF8"/>
+  <text x="703" y="381" fill="#38BDF8" font-family="monospace" font-size="11">BUILDING</text>
+  <path d="M395 403H729" stroke="#263244"/>
+  <text x="395" y="418" fill="#718096" font-family="monospace" font-size="11">SPEC → RTL → VERIFY → PNR → SYSTEM</text>
+
+  <rect x="781" y="100" width="391" height="330" rx="12" fill="#0C131D" stroke="#2A394B"/>
+  <text x="809" y="137" fill="#F4F7FA" font-family="Arial, sans-serif" font-size="17" font-weight="700">SIGNAL MAP</text>
+  <text x="809" y="160" fill="#718096" font-family="Arial, sans-serif" font-size="12">Interfaces connecting the work</text>
+  <path d="M810 207H1138M810 253H1138M810 299H1138M810 345H1138" stroke="#263244"/>
+  <circle cx="823" cy="207" r="7" fill="#9FE870" filter="url(#glowGreen)"/>
+  <text x="846" y="212" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="14">MCU / FIRMWARE</text>
+  <text x="1138" y="212" text-anchor="end" fill="#9FE870" font-family="monospace" font-size="11">UART · SPI · I²C</text>
+  <circle cx="823" cy="253" r="7" fill="#8B5CF6" filter="url(#glowPurple)"/>
+  <text x="846" y="258" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="14">DIGITAL LOGIC</text>
+  <text x="1138" y="258" text-anchor="end" fill="#B9A2FF" font-family="monospace" font-size="11">RTL · AES · SVA</text>
+  <circle cx="823" cy="299" r="7" fill="#6EE7B7"/>
+  <text x="846" y="304" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="14">SILICON FLOW</text>
+  <text x="1138" y="304" text-anchor="end" fill="#6EE7B7" font-family="monospace" font-size="11">YOSYS · OR · DRC</text>
+  <circle cx="823" cy="345" r="7" fill="#38BDF8"/>
+  <text x="846" y="350" fill="#D7DEE7" font-family="Arial, sans-serif" font-size="14">CONNECTED OT</text>
+  <text x="1138" y="350" text-anchor="end" fill="#38BDF8" font-family="monospace" font-size="11">MQTT · MES · TCP</text>
+  <rect x="809" y="386" width="329" height="23" rx="5" fill="#131F2B" stroke="#263244"/>
+  <circle cx="827" cy="397.5" r="4" fill="#9FE870" filter="url(#glowGreen)"/>
+  <text x="841" y="402" fill="#9FE870" font-family="monospace" font-size="11">ALL SYSTEMS NOMINAL</text>
+
+  <path d="M28 462H1172" stroke="#263244"/>
+  <text x="28" y="481" fill="#718096" font-family="monospace" font-size="11">BUILD WITH INTENT</text>
+  <text x="600" y="481" text-anchor="middle" fill="#718096" font-family="monospace" font-size="11">TEST WITH EVIDENCE</text>
+  <text x="1172" y="481" text-anchor="end" fill="#718096" font-family="monospace" font-size="11">DOCUMENT WITH CLARITY</text>
+</svg>
